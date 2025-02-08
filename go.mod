@@ -3,8 +3,10 @@ module zsafe
 go 1.23.3
 
 require (
+	github.com/klauspost/compress v1.17.11
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.10.0
+	golang.org/x/crypto v0.33.0
 )
 
 require (
