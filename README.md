@@ -9,7 +9,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/aminzdev/zsafe?style=for-the-badge)
 ![GitHub watchers](https://img.shields.io/github/watchers/aminzdev/zsafe?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/aminzdev/zsafe?style=for-the-badge)
-![Supported OS](https://img.shields.io/badge/OS-Linux-blue?style=for-the-badge)
+![Supported OS](https://img.shields.io/badge/OS-Linux%20%26%20Windows-blue?style=for-the-badge&logo=linux&logoColor=white)
 ![Docs](https://img.shields.io/badge/docs-up_to_date-brightgreen?style=for-the-badge)
 
 > **A simple and efficient Backup tool.**
