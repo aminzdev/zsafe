@@ -1,0 +1,16 @@
+package cmd
+
+import (
+	"github.com/spf13/cobra"
+)
+
+// RootCmd is the main command that sets up the basic CLI structure and command handling.
+var RootCmd = &cobra.Command{
+	Use:   "backup-manager",
+	Short: "A simple backup manager CLI for creating and restoring backups",
+	Long: `Backup Manager allows you to create and restore backups of files or directories.
+You can compress and encrypt backups for security and restore them later.`,
+	Run: func(cmd *cobra.Command, args []string) {
+		cmd.Println("Please specify a command. Run 'backup-manager --help' for available commands.")
+	},
+}
