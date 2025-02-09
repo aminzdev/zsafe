@@ -1,4 +1,4 @@
-module zsafe
+module github.com/aminzdev/zsafe
 
 go 1.23.3
 
