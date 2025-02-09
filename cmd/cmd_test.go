@@ -22,7 +22,9 @@ func TestRootCmd(t *testing.T) {
 	assert.NoError(t, err)
 
 	// Assert that the output contains the expected text
-	assert.Contains(t, buf.String(), "Please specify a command")
+	assert.Contains(t, buf.String(), "Usage:")
+	assert.Contains(t, buf.String(), "Available Commands:")
+	assert.Contains(t, buf.String(), "Flags:")
 }
 
 // TestInvalidCommand tests the invalid command behavior (e.g., an unrecognized command)
