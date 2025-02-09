@@ -16,6 +16,6 @@ var RootCmd = &cobra.Command{
 	Long: `Backup Manager allows you to create and restore backups of files or directories.
 You can compress and encrypt backups for security and restore them later.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		cmd.Println("Please specify a command. Run 'backup-manager --help' for available commands.")
+		cmd.Help()
 	},
 }
