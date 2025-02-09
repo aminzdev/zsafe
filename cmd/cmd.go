@@ -13,7 +13,7 @@ var (
 var RootCmd = &cobra.Command{
 	Use:   "zsafe",
 	Short: "A simple backup manager CLI for creating and restoring backups",
-	Long: `Backup Manager allows you to create and restore backups of files or directories.
+	Long: `ZSafe allows you to create and restore backups of files or directories.
 You can compress and encrypt backups for security and restore them later.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		cmd.Help()
