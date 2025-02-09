@@ -3,9 +3,9 @@ package cmd
 import (
 	"errors"
 	"fmt"
+	"github.com/aminzdev/zsafe/lib"
 	"github.com/spf13/cobra"
 	"path/filepath"
-	"zsafe/lib"
 )
 
 // RestoreCmd defines the "restore" subcommand that restores a backup to a specified directory.

@@ -3,8 +3,8 @@ package cmd
 import (
 	"errors"
 	"fmt"
+	"github.com/aminzdev/zsafe/lib"
 	"github.com/spf13/cobra"
-	"zsafe/lib"
 )
 
 // BackupCmd defines the "backup" subcommand that creates a backup.
